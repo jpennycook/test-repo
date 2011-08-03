@@ -1,0 +1,35 @@
+<html>
+<body>
+
+
+<h3>poke the kitty</h3>
+<div id="button" onclick="sleepyKitty()" style="height: 480px; width: 640px; background-image:url('http://www.mycuteanimals.com/wp-content/uploads/2008/09/12-07_kittensleeping.jpg');">
+</div>
+
+<script>
+var catSnores = 1;
+var catPissed = 6;
+
+function sleepyKitty() {
+	if (catSnores < catPissed) {
+		console.log("The cat snored " + catSnores + " times.");
+		catSnores++;
+		
+	} else {
+		console.log("He won't let you poke him anymore!");
+		}
+		pissedKitty();
+};
+
+function pissedKitty() {
+	if (catSnores == catPissed) {
+		console.log("Stop poking the kitty!");
+		catSnores++;
+	}
+};
+
+
+
+</script>
+</body>
+</html>
