@@ -1,0 +1,11 @@
+body {
+	background-color: papayawhip;
+	text-align: center;
+}
+
+#button {
+	height: 480px; 
+	width: 640px; 
+	margin: auto;
+	background-image:url('http://www.mycuteanimals.com/wp-content/uploads/2008/09/12-07_kittensleeping.jpg');
+}
